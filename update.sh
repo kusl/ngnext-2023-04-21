@@ -7,11 +7,11 @@ git add .;
 git commit -m "add timestamp";
 
 echo ''  >> README.md 2>&1;
-echo '# Angular Fifteen'  >> README.md 2>&1;
+echo '# Angular 16?'  >> README.md 2>&1;
 echo ''  >> README.md 2>&1;
 
 echo ''  >> README.md 2>&1;
-echo 'This project is live at [https://angularfifteen.github.io](https://angularfifteen.github.io "fifteen!") thanks to Github.'  >> README.md 2>&1;
+echo 'This project is live at [https://kusl.github.io/ngnext-2023-04-21/](https://kusl.github.io/ngnext-2023-04-21/ "next!") thanks to Github.'  >> README.md 2>&1;
 echo ''  >> README.md 2>&1;
 
 echo "\`\`\`bash"  >> README.md 2>&1;
@@ -68,7 +68,7 @@ echo "\`\`\`bash"  >> README.md 2>&1;
 ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "begin prepare to build angular";
-export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng build --base-href=ngnext-2023-04-21 --configuration production --output-path docs --output-hashing none --stats-json true --subresource-integrity true --verbose true  >> README.md 2>&1;
+export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng build --base-href /ngnext-2023-04-21 --configuration production --output-path docs --output-hashing none --stats-json true --subresource-integrity true --verbose true  >> README.md 2>&1;
 echo "\`\`\`"  >> README.md 2>&1;
 git add .;
 git commit -m "end prepare to build angular";
