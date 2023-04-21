@@ -25,3 +25,35 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+```
+$ time yarn add --dev karma-jasmine karma-jasmine karma-chrome-launcher karma-jasmine-html-reporter karma-coverage-istanbul-reporter karma-firefox-launcher karma-jasmine-html-reporter karma-spec-reporter
+yarn add v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "@types/node@*".
+warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript-loader@4.3.0" has unmet peer dependency "ts-node@>=10".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 6 new dependencies.
+info Direct dependencies
+├─ karma-chrome-launcher@3.2.0
+├─ karma-coverage-istanbul-reporter@3.0.3
+├─ karma-firefox-launcher@2.1.2
+└─ karma-spec-reporter@0.0.36
+info All dependencies
+├─ colors@1.4.0
+├─ istanbul-lib-source-maps@3.0.6
+├─ karma-chrome-launcher@3.2.0
+├─ karma-coverage-istanbul-reporter@3.0.3
+├─ karma-firefox-launcher@2.1.2
+└─ karma-spec-reporter@0.0.36
+Done in 5.29s.
+
+real	0m5.451s
+user	0m3.462s
+sys	0m0.644s
+```
