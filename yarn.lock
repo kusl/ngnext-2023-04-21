@@ -4733,6 +4733,13 @@ karma-firefox-launcher@^2.1.2:
     is-wsl "^2.2.0"
     which "^2.0.1"
 
+karma-htmlfile-reporter@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/karma-htmlfile-reporter/-/karma-htmlfile-reporter-0.3.8.tgz#490f7f5f4fa7115404222f5d6cb72b04108354b4"
+  integrity sha512-Hd4c/vqPXYjdNYXeDJRMMq2DMMxPxqOR+TPeiLz2qbqO0qCCQMeXwFGhNDFr+GsvYhcOyn7maTbWusUFchS/4A==
+  dependencies:
+    xmlbuilder "^10.0.0"
+
 karma-jasmine-html-reporter@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-2.0.0.tgz#76c26ce40e217dc36a630fbcd7b31c3462948bf2"
@@ -6985,6 +6992,11 @@ ws@~8.11.0:
   version "8.11.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
   integrity sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==
+
+xmlbuilder@^10.0.0:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-10.1.1.tgz#8cae6688cc9b38d850b7c8d3c0a4161dcaf475b0"
+  integrity sha512-OyzrcFLL/nb6fMGHbiRDuPup9ljBycsdCypwuyg5AAHvyWzGfChJpCXMG88AGTIMFhGZ9RccFN1e6lhg3hkwKg==
 
 y18n@^5.0.5:
   version "5.0.8"
