@@ -1,3 +1,5 @@
+/// <reference types="@angular/localize" />
+
 import { ViewEncapsulation } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

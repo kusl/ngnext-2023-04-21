@@ -201,6 +201,15 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/localize@16.0.0-rc.2":
+  version "16.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@angular/localize/-/localize-16.0.0-rc.2.tgz#17e5dc9b0da55aa7b5a0f7525ebe27b410a1f050"
+  integrity sha512-yOg3Jtt3iv6dXTTymMCp3RvR7THHemVWNiSXzwXWRNf3gE1CFRf4r5Oc9hcoAcB8K9yTO8F+9uGnaBCwJcxRVQ==
+  dependencies:
+    "@babel/core" "7.19.3"
+    glob "8.1.0"
+    yargs "^17.2.1"
+
 "@angular/material@16.0.0-rc.1":
   version "16.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/@angular/material/-/material-16.0.0-rc.1.tgz#7d2ec5df5e05d6df7fab9c70a3a794ddea5d6d80"
