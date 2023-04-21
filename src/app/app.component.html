@@ -1,5 +1,8 @@
 <div class="content" role="main">
-
+  <span>{{ title }} app is running!</span>
+  <mat-slide-toggle>Toggle me!</mat-slide-toggle>
+</div>
+<aside>
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
 
@@ -19,7 +22,6 @@
       </g>
     </svg>
 
-    <span>{{ title }} app is running!</span>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632"
       viewBox="0 0 516.119 1083.632">
@@ -30,5 +32,5 @@
     </svg>
 
   </div>
-  <mat-slide-toggle>Toggle me!</mat-slide-toggle>
-  <router-outlet></router-outlet>
+</aside>
+<router-outlet></router-outlet>
