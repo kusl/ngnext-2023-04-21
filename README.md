@@ -252,3 +252,8 @@ runtime.js          | runtime       | 912 bytes |               520 bytes
 Build at: 2023-04-21T18:46:40.054Z - Hash: 2a7be18bd424799a - Time: 4671ms
 Done in 6.52s.
 ```
+Fri Apr 21 02:46:48 PM EDT 2023
+yarn version v1.22.19
+info Current version: 0.0.7
+info New version: 0.0.8
+Done in 0.12s.
