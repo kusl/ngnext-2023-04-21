@@ -4,10 +4,11 @@ import { AppComponent } from './app.component';
 import { By } from '@angular/platform-browser';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { ReactiveFormsModule } from '@angular/forms';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
-    imports: [RouterTestingModule,MatSlideToggleModule, MatProgressSpinnerModule],
+    imports: [RouterTestingModule,MatSlideToggleModule, MatProgressSpinnerModule, ReactiveFormsModule],
     declarations: [AppComponent]
   }));
 
