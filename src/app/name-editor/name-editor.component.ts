@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-name-editor',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./name-editor.component.scss']
 })
 export class NameEditorComponent {
+  name = new FormControl('');
 
+  updateName() {
+    this.name.setValue('Nancy');
+  }
 }

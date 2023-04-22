@@ -5,11 +5,12 @@ import { By } from '@angular/platform-browser';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NameEditorComponent } from './name-editor/name-editor.component';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [RouterTestingModule,MatSlideToggleModule, MatProgressSpinnerModule, ReactiveFormsModule],
-    declarations: [AppComponent]
+    declarations: [AppComponent, NameEditorComponent]
   }));
 
   it('should create the app', () => {
