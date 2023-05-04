@@ -55,3 +55,18 @@ warning "@angular-devkit/build-angular > postcss-loader > cosmiconfig-typescript
 [4/4] Building fresh packages...
 Done in 3.08s.
 ```
+Latest version:     1.0.30001482
+Installed version:  1.0.30001482
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```bash
+Latest version:     1.0.30001482
+Installed version:  1.0.30001482
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
