@@ -53,3 +53,22 @@ yarn install v1.22.19
 [4/4] Building fresh packages...
 Done in 3.26s.
 ```
+Latest version:     1.0.30001503
+Installed versions: 1.0.30001502, 1.0.30001503
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ yarn add -W caniuse-lite
+Cleaning package.json dependencies from caniuse-lite
+$ yarn remove -W caniuse-lite
+caniuse-lite has been successfully updated
+
+No target browser changes
+```bash
+Latest version:     1.0.30001503
+Installed version:  1.0.30001503
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
