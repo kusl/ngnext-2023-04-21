@@ -57,3 +57,18 @@ yarn install v1.22.19
 success Saved lockfile.
 Done in 3.70s.
 ```
+Latest version:     1.0.30001517
+Installed version:  1.0.30001517
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```bash
+Latest version:     1.0.30001517
+Installed version:  1.0.30001517
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
