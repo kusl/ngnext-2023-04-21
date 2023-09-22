@@ -59,3 +59,18 @@ warning " > @angular/localize@16.2.5" has incorrect peer dependency "@angular/co
 success Saved lockfile.
 Done in 3.59s.
 ```
+Latest version:     1.0.30001538
+Installed version:  1.0.30001538
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```bash
+Latest version:     1.0.30001538
+Installed version:  1.0.30001538
+caniuse-lite is up to date
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
