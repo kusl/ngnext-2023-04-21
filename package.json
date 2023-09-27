@@ -1,6 +1,6 @@
 {
   "name": "ngnext-2023-04-21",
-  "version": "0.0.129",
+  "version": "0.0.130",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
