@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngnext-2023-04-21:build:production"
+              "buildTarget": "ngnext-2023-04-21:build:production"
             },
             "development": {
-              "browserTarget": "ngnext-2023-04-21:build:development"
+              "buildTarget": "ngnext-2023-04-21:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngnext-2023-04-21:build"
+            "buildTarget": "ngnext-2023-04-21:build"
           }
         },
         "test": {
