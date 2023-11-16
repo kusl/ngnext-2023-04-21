@@ -63,3 +63,195 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.21
+$ ng build --base-href https://kusl.github.io/ngnext-2023-04-21/ --configuration production --output-path docs --output-hashing none --stats-json true --subresource-integrity true --verbose true
+- Generating browser application bundles (phase: setup)...
+<t> [webpack.cache.PackFileCacheStrategy] restore cache container: 1892.634849 ms
+    [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] /home/kushal/src/angular/ngnext-2023-04-21/package.json invalidated because hashes differ (5af4978e4de423c9 != f041dbf11badf887)
+    [webpack.cache.PackFileCacheStrategy] resolving of build dependencies is invalid, will re-resolve build dependencies
+<t> [webpack.cache.PackFileCacheStrategy] check build dependencies: 975.16604 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content metadata: 4.688545 ms
+    [webpack.cache.PackFileCacheStrategy] starting to restore cache content 1 (38.8 MiB) because of request to: ProgressPlugin|counts
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@ngtools/webpack/src/ivy/index.js!/home/kushal/src/angular/ngnext-2023-04-21/src/app/app.module.ts': 1.74015 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/material/fesm2022/slide-toggle.mjs': 1.289648 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/material/fesm2022/core.mjs': 2.132777 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/cdk/fesm2022/a11y.mjs': 1.985293 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/codeGeneration|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@ngtools/webpack/src/ivy/index.js!/home/kushal/src/angular/ngnext-2023-04-21/src/main.ts|6fbab3001b309b4f|runtime': 1.738548 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content 1 (38.8 MiB): 61.760439 ms
+    [webpack.cache.PackFileCacheStrategy] starting to restore cache content 0 (4.69 MiB) because of request to: Compilation/modules|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/mini-css-extract-plugin/dist/loader.js!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/resolve-url-loader/index.js??ruleSet[1].rules[5].rules[1].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].rules[1].use[1]!/home/kushal/src/angular/ngnext-2023-04-21/src/styles.scss?ngGlobalStyle
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs': 1.15256 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/core/fesm2022/core.mjs': 2.057139 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/rxjs/dist/esm/operators/index.js': 1.503912 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content 0 (4.69 MiB): 65.235284 ms
+    [IdleFileCachePlugin] Initial cache was generated and cache will be persisted in 5s.
+✔ Browser application bundle generation complete.
+    [webpack.cache.PackFileCacheStrategy] Pack got invalid because of write to: ResolverCachePlugin|normal|default|dependencyType=|esm|path=|/home/kushal/src/angular/ngnext-2023-04-21|request=|@angular/localize/init
+asset main.js 342 KiB {179} [emitted] (name: main)
+asset styles.css 83.4 KiB {532} [emitted] (name: styles)
+asset polyfills.js 33 KiB {429} [emitted] (name: polyfills)
+asset 3rdpartylicenses.txt 14.8 KiB [emitted]
+asset runtime.js 912 bytes {666} [emitted] (name: runtime)
+Entrypoint main 343 KiB = runtime.js 912 bytes main.js 342 KiB
+Entrypoint polyfills 33.9 KiB = runtime.js 912 bytes polyfills.js 33 KiB
+Entrypoint styles 84.2 KiB = runtime.js 912 bytes styles.css 83.4 KiB
+chunk {179} (runtime: runtime) main.js (main) 2.79 MiB [initial]
+  cached modules 29.8 KiB [cached] 1 module
+  ./src/main.ts + 115 modules [607] 2.76 MiB {179} [built]
+    [no exports used]
+    entry /home/kushal/src/angular/ngnext-2023-04-21/src/main.ts main
+chunk {429} (runtime: runtime) polyfills.js (polyfills) 104 KiB [initial]
+  cached modules 104 KiB [cached] 1 module
+chunk {532} (runtime: runtime) styles.css (styles) 100 bytes (javascript) 85.4 KiB (css/mini-extract) [initial]
+  cached modules 100 bytes (javascript) 85.4 KiB (css/mini-extract) [cached] 4 modules
+chunk {666} (runtime: runtime) runtime.js (runtime) 2.49 KiB [entry]
+  cached modules 2.49 KiB [cached] 4 modules
+  
+
+LOG from webpack.FileSystemInfo
+    64 new snapshots created
+    39% root snapshot uncached (811 / 2071)
+    16% children snapshot uncached (374 / 2354)
+    1452 entries tested
+    File info in cache: 130 timestamps 23 hashes 23 timestamp hash combinations
+    File timestamp snapshot optimization: 0% (0/8) entries shared via 0 shared snapshots (0 times referenced)
+    File timestamp hash combination snapshot optimization: 76% (419/549) entries shared via 2 shared snapshots (59 times referenced)
+    Directory info in cache: 0 timestamps 0 hashes 0 timestamp hash combinations
+    Missing items snapshot optimization: 48% (166/343) entries shared via 8 shared snapshots (25 times referenced)
+    Managed items info in cache: 79 items
+    Managed items snapshot optimization: 56% (208/371) entries shared via 18 shared snapshots (36 times referenced)
+    Managed files snapshot optimization: 62% (168/269) entries shared via 10 shared snapshots (34 times referenced)
+    Managed missing snapshot optimization: 78% (347/444) entries shared via 18 shared snapshots (53 times referenced)
++ 2 hidden lines
+
+LOG from webpack.Compiler
+<t> make hook: 1616.8956210000001 ms
+<t> finish make hook: 0.103421 ms
+<t> finish compilation: 33.752109 ms
+<t> seal compilation: 675.320609 ms
+<t> afterCompile hook: 0.142576 ms
+<t> emitAssets: 3.26592 ms
+<t> emitRecords: 0.070825 ms
+<t> done hook: 101.863887 ms
+<t> beginIdle: 0.371425 ms
+
+LOG from webpack.Compilation.ModuleProfile
+<i>  | 222 ms (parallelism 5) resolve to new modules > ./node_modules/@angular/material/prebuilt-themes/purple-green.css?ngGlobalStyle
+<i>  | 222 ms (parallelism 5) resolve to new modules > ./src/styles.scss?ngGlobalStyle
+<i>  | 224 ms (parallelism 5) resolve to new modules > ./node_modules/@angular/localize/fesm2022/init.mjs
+<i>  | 223 ms (parallelism 5) resolve to new modules > ./node_modules/zone.js/fesm2015/zone.js
+<i>  | 225 ms (parallelism 5) resolve to new modules > ./src/main.ts
+<i> 1352 ms resolve to new modules
++ 24 hidden lines
+
+LOG from webpack.Compilation
+<t> finish module profiles: 3.989942 ms
+<t> compute affected modules: 0.005043 ms
+<t> finish modules: 24.454355 ms
+<t> report dependency errors and warnings: 5.268334 ms
+<t> optimize dependencies: 9.857063 ms
+<t> create chunks: 3.289321 ms
+<t> compute affected modules with chunk graph: 0.00384 ms
+<t> optimize: 28.204396 ms
+    7 modules hashed, 0 from cache (0.03 variants per module in average)
+<t> module hashing: 11.097557 ms
+    0% code generated (0 generated, 7 from cache)
+<t> code generation: 0.419786 ms
+<t> runtime requirements.modules: 0.173856 ms
+<t> runtime requirements.chunks: 0.14266 ms
+<t> runtime requirements.entries: 0.778996 ms
+<t> runtime requirements: 1.271251 ms
+<t> hashing: initialize hash: 0.003616 ms
+<t> hashing: sort chunks: 0.03459 ms
+<t> hashing: hash runtime modules: 1.384438 ms
+<t> hashing: hash chunks: 0.914009 ms
+<t> hashing: hash digest: 0.012202 ms
+<t> hashing: process full hash modules: 0.180273 ms
+<t> hashing: 2.610717 ms
+    0% code generated (0 generated, 4 from cache)
+<t> record hash: 0.053869 ms
+<t> module assets: 0.124112 ms
+<t> create chunk assets: 0.804916 ms
+<t> process assets: 616.222797 ms
+
+LOG from webpack.ResolverCachePlugin
+    3% really resolved (62 real resolves with 62 cached but invalid, 1750 cached valid, 0 concurrent)
+
+LOG from webpack.FlagDependencyExportsPlugin
+<t> restore cached provided exports: 3.46737 ms
+<t> figure out provided exports: 8.681913 ms
+    2% of exports of modules have been determined (3 no declared exports, 6 not cached, 0 flagged uncacheable, 252 from cache, 0 from mem cache, 1 additional calculations due to dependencies)
+<t> store provided exports into cache: 0.010118 ms
+
+LOG from webpack.InnerGraphPlugin
+<t> infer dependency usage: 0.198745 ms
+
+LOG from webpack.SideEffectsFlagPlugin
+<t> update dependencies: 3.772446 ms
+
+LOG from webpack.FlagDependencyUsagePlugin
+<t> initialize exports usage: 0.433615 ms
+<t> trace exports usage in graph: 5.268713 ms
+
+LOG from webpack.buildChunkGraph
+<t> visitModules: prepare: 1.705824 ms
+<t> visitModules: visiting: 2.410769 ms
+    267 queue items processed (123 blocks)
+    0 chunk groups connected
+    0 chunk groups processed for merging (0 module sets, 0 forked, 0 + 0 modules forked, 0 + 0 modules merged into fork, 0 resulting modules)
+    0 chunk group info updated (0 already connected chunk groups reconnected)
+<t> visitModules: 2.459751 ms
+<t> connectChunkGroups: 0.002674 ms
+<t> cleanup: 0.001116 ms
+
+LOG from webpack.SplitChunksPlugin
+<t> prepare: 0.039577 ms
+<t> modules: 2.248866 ms
+<t> queue: 0.003733 ms
+<t> maxSize: 0.036461 ms
+
+LOG from webpack.ModuleConcatenationPlugin
+<t> select relevant modules: 0.944787 ms
+<t> sort relevant modules: 0.12248 ms
+<t> find modules to concatenate: 6.263301 ms
+<t> sort concat configurations: 0.041649 ms
+<t> create concatenated modules: 5.755209 ms
++ 3 hidden lines
+
+LOG from build-angular.CssOptimizerPlugin
+<t> optimize css assets: 0.07708 ms
++ 1 hidden lines
+
+2023-11-16 18:30:30: webpack 5.89.0 compiled in 4186 ms (8859b7d8181a3374)
+    [webpack.cache.PackFileCacheStrategy] Storing pack...
+    [webpack.cache.PackFileCacheStrategy] Capturing build dependencies... (/home/kushal/src/angular/ngnext-2023-04-21/node_modules/webpack/lib/, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/css-loader/dist/cjs.js, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/node_modules/postcss-loader/dist/cjs.js, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/resolve-url-loader/index.js, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/sass-loader/dist/cjs.js, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/mini-css-extract-plugin/dist/loader.js, /home/kushal/src/angular/ngnext-2023-04-21/node_modules/@ngtools/webpack/src/ivy/index.js)
+    [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Node.js doesn't offer a (nice) way to introspect the ESM dependency graph yet.
+    Until a full solution is available webpack uses an experimental ESM tracking based on parsing.
+    As best effort webpack parses the ESM files to guess dependencies. But this can lead to expensive and incorrect tracking.
+<t> [webpack.cache.PackFileCacheStrategy] resolve build dependencies: 241.569049 ms
+<t> [webpack.cache.PackFileCacheStrategy] snapshot build dependencies: 3.278626 ms
+    [webpack.cache.PackFileCacheStrategy] Captured build dependencies
+    [webpack.cache.PackFileCacheStrategy] 65 fresh items in cache put into pack 3
+    [webpack.cache.PackFileCacheStrategy] Split pack 1 into pack 1 with 37 used items and pack 4 with 8 unused items
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@ngtools/webpack/src/ivy/index.js!/home/kushal/src/angular/ngnext-2023-04-21/src/app/app.component.ts': 1.02312 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/material/fesm2022/core.mjs': 2.032889 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|javascript/esm|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular/cdk/fesm2022/a11y.mjs': 1.315044 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/codeGeneration|/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js??ruleSet[1].rules[2].use[0]!/home/kushal/src/angular/ngnext-2023-04-21/node_modules/@ngtools/webpack/src/ivy/index.js!/home/kushal/src/angular/ngnext-2023-04-21/src/main.ts|6fbab3001b309b4f|runtime': 2.543428 ms
+<t> [webpack.cache.PackFileCacheStrategy] store pack: 111.95971 ms
+    [webpack.cache.PackFileCacheStrategy] Stored pack (1138 items, 5 files, 44 MiB)
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+Initial Chunk Files | Names         |  Raw Size | Estimated Transfer Size
+main.js             | main          | 341.97 kB |                86.11 kB
+styles.css          | styles        |  83.35 kB |                 8.15 kB
+polyfills.js        | polyfills     |  32.97 kB |                10.63 kB
+runtime.js          | runtime       | 912 bytes |               520 bytes
+
+| Initial Total | 459.19 kB |               105.40 kB
+
+Build at: 2023-11-16T23:30:31.811Z - Hash: 8859b7d8181a3374 - Time: 5187ms
+Done in 6.86s.
+```
