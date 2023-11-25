@@ -57,3 +57,16 @@ yarn install v1.22.21
 success Saved lockfile.
 Done in 3.64s.
 ```
+```bash
+Latest version:     1.0.30001564
+Installed version:  1.0.30001563
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ yarn add -W caniuse-lite
+Cleaning package.json dependencies from caniuse-lite
+$ yarn remove -W caniuse-lite
+caniuse-lite has been successfully updated
+
+No target browser changes
+```
+```bash
