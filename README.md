@@ -6,3 +6,9 @@ Tue Jan  9 10:10:44 PM EST 2024
 This project is live at [https://kusl.github.io/ngnext-2023-04-21/](https://kusl.github.io/ngnext-2023-04-21/ "next!") thanks to Github.
 
 ```bash
+System Memory
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       4.6Gi       3.1Gi       375Mi       8.3Gi        10Gi
+Swap:          8.0Gi       1.3Gi       6.7Gi
+System Storage
+1.1G	.
