@@ -136,3 +136,30 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 20 packets transmitted, 20 received, 0% packet loss, time 814ms
 rtt min/avg/max/mdev = 36.618/42.303/50.103/3.665 ms, pipe 2, ipg/ewma 42.863/42.562 ms
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1705415271.238089] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=48.8 ms
+[1705415271.282617] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=44.3 ms
+[1705415271.325536] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=39.3 ms
+[1705415271.377347] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=44.1 ms
+[1705415271.423243] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=53 time=43.0 ms
+[1705415271.472182] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=45.9 ms
+[1705415271.516159] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=43.9 ms
+[1705415271.557119] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=38.8 ms
+[1705415271.611617] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=48.3 ms
+[1705415271.649381] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=40.1 ms
+[1705415271.696258] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=42.0 ms
+[1705415271.740250] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=41.9 ms
+[1705415271.784049] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=41.7 ms
+[1705415271.826791] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=40.5 ms
+[1705415271.877065] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=47.8 ms
+[1705415271.917481] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=44.4 ms
+[1705415271.960990] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=43.4 ms
+[1705415272.001555] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=40.0 ms
+[1705415272.125556] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=121 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 859ms
+rtt min/avg/max/mdev = 38.776/47.333/121.017/17.603 ms, pipe 2, ipg/ewma 45.211/53.152 ms
