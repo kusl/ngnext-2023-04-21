@@ -192,3 +192,30 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 --- 8.8.8.8 ping statistics ---
 20 packets transmitted, 20 received, 0% packet loss, time 881ms
 rtt min/avg/max/mdev = 38.371/45.286/52.613/3.863 ms, pipe 2, ipg/ewma 46.357/45.252 ms
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+
+ai->ai_family: AF_INET, ai->ai_canonname: '8.8.8.8'
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+[1705959934.840769] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=40.5 ms
+[1705959935.855529] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=53.2 ms
+[1705959936.852730] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=48.7 ms
+[1705959937.847692] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=41.4 ms
+[1705959939.923728] 64 bytes from 8.8.8.8: icmp_seq=6 ttl=53 time=55.5 ms
+[1705959940.911665] 64 bytes from 8.8.8.8: icmp_seq=7 ttl=53 time=41.3 ms
+[1705959941.914356] 64 bytes from 8.8.8.8: icmp_seq=8 ttl=53 time=42.0 ms
+[1705959942.917373] 64 bytes from 8.8.8.8: icmp_seq=9 ttl=53 time=43.0 ms
+[1705959943.922272] 64 bytes from 8.8.8.8: icmp_seq=10 ttl=53 time=45.9 ms
+[1705959944.919372] 64 bytes from 8.8.8.8: icmp_seq=11 ttl=53 time=41.2 ms
+[1705959945.927609] 64 bytes from 8.8.8.8: icmp_seq=12 ttl=53 time=47.2 ms
+[1705959946.924646] 64 bytes from 8.8.8.8: icmp_seq=13 ttl=53 time=42.2 ms
+[1705959947.924892] 64 bytes from 8.8.8.8: icmp_seq=14 ttl=53 time=40.5 ms
+[1705959948.925126] 64 bytes from 8.8.8.8: icmp_seq=15 ttl=53 time=38.6 ms
+[1705959949.929515] 64 bytes from 8.8.8.8: icmp_seq=16 ttl=53 time=40.7 ms
+[1705959950.933449] 64 bytes from 8.8.8.8: icmp_seq=17 ttl=53 time=42.1 ms
+[1705959951.937161] 64 bytes from 8.8.8.8: icmp_seq=18 ttl=53 time=43.8 ms
+[1705959952.937343] 64 bytes from 8.8.8.8: icmp_seq=19 ttl=53 time=41.7 ms
+[1705959953.942263] 64 bytes from 8.8.8.8: icmp_seq=20 ttl=53 time=44.0 ms
+
+--- 8.8.8.8 ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19098ms
+rtt min/avg/max/mdev = 38.583/43.881/55.503/4.331 ms
