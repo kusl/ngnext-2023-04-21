@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
-  selector: 'app-name-editor',
-  templateUrl: './name-editor.component.html',
-  styleUrls: ['./name-editor.component.scss']
+    selector: 'app-name-editor',
+    templateUrl: './name-editor.component.html',
+    styleUrls: ['./name-editor.component.scss'],
+    standalone: false
 })
 export class NameEditorComponent {
   name = new FormControl('');
